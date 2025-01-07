@@ -1,0 +1,130 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #ddddeb;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(to right, #399cf3, #05565b);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('./th.jpg') no-repeat center center/cover;
+    height: 70vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .btn {
+    margin-top: 1rem;
+    background: #13a4cc;
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+  }
+  
+  /* About Section */
+  .about {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .about img {
+    width: 80%;
+    margin: 1rem auto;
+    display: block;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 2rem 0;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .card {
+    background:  linear-gradient(to right, #3982c1, #048087);
+    border: 1px solid #9da399;
+    padding: 1.2rem;
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  .card:hover{
+    width: 32%;
+    height: 220px;
+  }
+  
+  .card h4 {
+    color: #ffffff;
+  }
+  
+  .card p {
+    color: #fff5f5;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
